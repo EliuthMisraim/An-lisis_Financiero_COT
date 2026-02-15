@@ -73,8 +73,8 @@ with st.sidebar:
     cigarros_paquete = 20
     
     st.subheader("📈 Variables Económicas")
-    tasa_retorno = st.slider("Tasa de Retorno Anual (Inversión)", 5, 20, 10, help="Ej. Rendimiento de CETES o S&P 500") / 100
-    inflacion = st.slider("Inflación Anual del Tabaco", 0, 15, 5) / 100
+    tasa_retorno = st.slider("Tasa de Retorno Anual (%) (Inversión)", 5, 20, 10, help="Ej. Rendimiento de CETES o S&P 500") / 100
+    inflacion = st.slider("Inflación Anual del Tabaco (%) ", 0, 15, 5) / 100
     anios_proyeccion = st.slider("Años a proyectar", 5, 40, 20)
 
     # --- LLAMADA A LA ACCIÓN ---
@@ -264,3 +264,4 @@ with st.expander("Ver tabla de datos detallada año por año"):
         hide_index=True
 
     )
+
