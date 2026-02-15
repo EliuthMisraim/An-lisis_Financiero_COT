@@ -61,7 +61,7 @@ with st.sidebar:
     # --- LOGO CENTRADO ---
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
-        st.image("image_ef75e0.png", width=150)
+        st.image("logo.png", width=150)
         
     st.header("⚙️ Configura tu Escenario")
     
@@ -262,4 +262,5 @@ with st.expander("Ver tabla de datos detallada año por año"):
         }),
         use_container_width=True,
         hide_index=True
+
     )
