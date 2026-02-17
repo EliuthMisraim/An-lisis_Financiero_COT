@@ -69,7 +69,7 @@ with st.sidebar:
     
     st.subheader("🚬 Consumo")
     cigarros_diarios = st.slider("Cigarros al día", 1, 40, 10)
-    precio_cajetilla = st.number_input(f"Precio por cajetilla ({moneda})", value=75.0, step=5.0)
+    precio_cajetilla = st.number_input(f"Precio por cajetilla 20pz ({moneda})", value=75.0, step=5.0)
     cigarros_paquete = 20
     
     st.subheader("📈 Variables Económicas")
@@ -264,4 +264,5 @@ with st.expander("Ver tabla de datos detallada año por año"):
         hide_index=True
 
     )
+
 
